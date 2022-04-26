@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @media only screen and (min-width: 1440px) {
+
+body{
+    background-color:  hsl(227, 24%, 93%);
+}
+.menu1{
+    display: flex;
+    width: 550px;
+    height: 270px;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    margin-left: 365px;
+    margin-top: 200px;
+    background-image: url("file:///C:/Users/mcarioti/Desktop/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position:80% 0%;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 20px 20px 20px 20px;
+}
+.p1{
+    size: 16px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.p11{
+    font-size: 10px;
+    color: rgb(175, 175, 175);
+    margin-left: -95px;
+    margin-top: 45px;
+}
+
+.intro1{
+    color: white;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: -130px;
+    margin-top: 75px;
+}
+.text1{
+    color: rgb(197, 194, 194);
+    font-size: 12px;
+    margin-top: 155px;
+    margin-left: -450px;
+}
+
+
+.menu2{
+    display: flex;
+    background-color:  hsl(225, 18%, 38%);
+    width: 260px;
+    height: 270px;
+    margin-left: 940px;
+    margin-top: -270px;
+    border-radius: 10px;
+}
+.p2{
+    size: 16px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.p22{
+    font-size: 10px;
+    color: rgb(175, 175, 175);
+    margin-left: -105px;
+    margin-top: 50px;
+}
+.intro2{
+    color: white;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: -130px;
+    margin-top: 75px;
+}
+.text2{
+    color: rgb(197, 189, 189);
+    font-size: 12px;
+    margin-top: 155px;
+    margin-left: -180px;
+}
+
+.menu3{
+    display: flex;
+    position: absolute;                                                                                                                
+    width: 250px;
+    height: 565px;
+    background-color: white;
+    margin-left: 1225px;
+    margin-top: -270px;
+    border-radius: 10px;
+}
+.p3{
+    size: 16px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.p33{
+    font-size: 10px;
+    color: rgb(175, 175, 175);
+    margin-left: -80px;
+    margin-top: 50px;
+}
+.intro3{
+    color: black;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: -120px;
+    margin-top: 75px;
+}
+.text3{
+    color: gray;
+    font-size: 12px;
+    margin-top: 155px;
+    margin-left: -155px;
+}
+.menu4{
+    display:flex;
+    width: 260px;
+    height: 270px;
+    background-color: white;
+    margin-left: 365px;
+    margin-top: 25px;
+    border-radius: 10px;
+
+}
+.p4{
+    size: 16px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.p44{
+    font-size: 10px;
+    color: rgb(175, 175, 175);
+    margin-left: -105px;
+    margin-top: 50px;
+}
+.intro4{
+    color: black;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: -125px;
+    margin-top: 80px;
+}
+.text4{
+    color: gray;
+    font-size: 12px;
+    margin-left: -160px;
+    margin-top: 155px;
+}
+
+.menu5{
+    display: flex;
+    width: 550px;
+    height: 270px;
+    background-color:  hsl(223, 48%, 17%);
+    margin-left: 650px;
+    margin-top: -270px;
+    border-radius: 10px;
+}
+.p5{
+    size: 16px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.p55{
+    font-size: 10px;
+    color: rgb(175, 175, 175);
+    margin-left: -95px;
+    margin-top: 50px;
+}
+.intro5{
+    color: white;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: -130px;
+    margin-top: 80px;
+}
+.text5{
+    color: gray;
+    font-size: 12px;
+    margin-top: 165px;
+    margin-left: -455px;
+}
+  }
+
+  @media only screen and (max-width: 375px) {
+    body {
+        background-color:  hsl(227, 24%, 93%);
+    }
+    .menu1{
+        display: flex;
+        width: 300px;
+        height: 500px;
+        background-color: hsl(263, 55%, 52%);
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 10px;
+        background-image: url("file:///C:/Users/mcarioti/Desktop/bg-pattern-quotation.svg");
+        background-repeat: no-repeat;
+        background-position:90% 0%;
+        
+    }
+    img{
+        width: 30px;
+        height: 30px;
+        margin-left: 25px;
+        margin-top: 25px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .p1{
+        size: 16px;
+        color: white;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .p11{
+        font-size: 10px;
+        color: rgb(175, 175, 175);
+        margin-left: -95px;
+        margin-top: 40px;
+    }
+    
+    .intro1{
+        position: absolute;
+        color: white;
+        font-size: 13px;
+        font-family: 'Red Hat Display', sans-serif;
+        margin-top: 90px;
+        margin-left: 10px;
+        margin-right:40px;
+        
+    }
+    .text1{
+        position: absolute;
+        color: rgb(197, 194, 194);
+        font-size: 13px;
+        margin-top: 230px;
+        margin-left: 10px;
+        margin-right: 40px;
+    }
+.menu2{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color:  hsl(225, 18%, 38%);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+    
+}
+
+.p2{
+    size: 16px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.p22{
+    font-size: 10px;
+    color: rgb(175, 175, 175);
+    margin-left: -105px;
+    margin-top: 40px;
+}
+
+.intro2{
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right:40px;
+    
+}
+.text2{
+    position: absolute;
+    color: rgb(197, 194, 194);
+    font-size: 12px;
+    margin-top: 180px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+.menu3{
+    display: flex;
+    width: 300px;
+    height: 480px;
+    background-color:  white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+    
+}
+
+.p3{
+    position: absolute;
+    size: 16px;
+    color: black;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.p33{
+    font-size: 10px;
+    color: rgb(175, 175, 175);
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.intro3{
+    position: absolute;
+    color: black;
+    font-size: 13px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 90px;
+    margin-left: 30px;
+    margin-right:40px;
+    
+}
+.text3{
+    position: absolute;
+    color: rgb(197, 194, 194);
+    font-size: 12px;
+    margin-top: 160px;
+    margin-left: 30px;
+    
+}
+.menu4{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color:  hsl(225, 18%, 38%);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+    
+}
+
+.p4{
+    size: 16px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.p44{
+    font-size: 10px;
+    color: rgb(175, 175, 175);
+    margin-left: -105px;
+    margin-top: 40px;
+}
+
+.intro4{
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right:40px;
+    
+}
+.text4{
+    position: absolute;
+    color: rgb(197, 194, 194);
+    font-size: 12px;
+    margin-top: 180px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.menu5{
+    display: flex;
+    width: 300px;
+    height: 350px;
+    background-color:  white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    
+}
+
+.p5{
+    position: absolute;
+    size: 16px;
+    color: black;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.p55{
+    font-size: 10px;
+    color: rgb(175, 175, 175);
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.intro5{
+    position: absolute;
+    color: black;
+    font-size: 13px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-right:40px;
+    
+}
+.text5{
+    position: absolute;
+    color: rgb(197, 194, 194);
+    font-size: 12px;
+    margin-top: 180px;
+    margin-left: 15px;
+    margin-right: 35px;
+    
+}
+  }
